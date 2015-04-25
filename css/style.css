@@ -1,0 +1,40 @@
+body{
+margin: 0;
+padding: 0;
+background-color: #f0f0f0;
+}
+.container{
+margin: 20px auto;
+text-align: center;
+width: 60%;
+background-color: #fff;
+padding: 10px;
+}
+h1{
+	font-size: 2em;
+}
+.addItem{
+padding: 10px 0;
+width: 100%;
+margin: 0;
+font-size: 1.2em;
+}
+
+div.items{
+height: 1em;
+border: 6px solid #666;
+margin: 10px auto;
+padding: 20px;
+text-align: left;
+}
+.items:nth-child(4){
+background-color: #79BD9A ;
+color: #fff;
+border: 6px solid #3B8686;
+
+}
+.close{
+	cursor: pointer;
+	float: right;
+}
+
