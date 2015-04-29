@@ -35,14 +35,31 @@ ul
     margin: 0;
     padding: 0;
 }
-li.items:nth-child(2){
+/*li.items:nth-child(2){
 background-color: #79BD9A ;
 color: #fff;
 border: 6px solid #3B8686;
 
-}
-.close{
+}*/
+.remove{
 	cursor: pointer;
 	float: right;
+	display: inline-block;
+}
+
+#add{
+	float: right;
+	position: relative;
+	left: 0;
+	top: -30px;
+
+}
+
+.results .fa{
+float: right;
+cursor: pointer;
+color: #000;
+display: none;
+
 }
 
