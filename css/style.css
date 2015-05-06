@@ -1,32 +1,65 @@
 body{
-margin: 0;
-padding: 0;
-background-color: #f0f0f0;
+	margin: 0;
+	padding: 0;
+	background-color: #3A7187;
+
 }
 .container{
-margin: 20px auto;
-text-align: center;
-width: 60%;
-background-color: #fff;
-padding: 10px;
+	margin: 180px auto;
+	text-align: center;
+	width: 70%;
 }
 h1{
-	font-size: 2em;
+	font-size: 2.3em;
+	color: #fff;
+	font-family: 'Titillium Web', sans-serif;
+}
+h2{
+	color: #fff;
+	
+	font-family: 'Lato', sans-serif;
+	font-weight: 100;
 }
 .addItem{
-padding: 10px 0;
-width: 100%;
-margin: 0;
-font-size: 1.2em;
+	padding: 12px 0;
+	border: 3px solid #5DC66A;
+	margin: 0;
+	font-size: 1.2em;
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	border-radius: 8px;
+	border: none;
+	width: 100%;
+
+
+
 }
 
-li.items{
+input[type=text]
+{
+    color: #979797;
+   
+}
 
-border: 6px solid #666;
-margin: 10px auto;
-padding: 20px;
-text-align: left;
-text-decoration: none;
+.items{
+	border: 3px solid #23A072;
+	color: #fff;
+	margin: 10px auto;
+	padding: 20px;
+	text-align: left;
+	
+	-webkit-transition-timing-function: ease;
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	border-radius: 8px;
+	font-size: 1.200em;
+	font-family: 'Lato', sans-serif;
+}
+li.strike{
+   text-decoration: line-through;
+
+
+
 }
 
 ul
@@ -35,31 +68,46 @@ ul
     margin: 0;
     padding: 0;
 }
-/*li.items:nth-child(2){
-background-color: #79BD9A ;
-color: #fff;
-border: 6px solid #3B8686;
-
-}*/
-.remove{
-	cursor: pointer;
-	float: right;
-	display: inline-block;
+.checkitems{
+	background-color: #79BD9A ;
+	color: #fff;
+	border: 6px solid #3B8686;
 }
 
 #add{
+	background-color: #2B4A65;
+	margin-top: 10px;
+	padding: 0.968em 3.9em;
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	border-radius: 8px;
+	border:none;
+	color: #fff;
+	font-size: 1.000em;
+	font-family: 'Lato', sans-serif;
+	width: 100%;
+	
+
+}
+
+
+#add:hover{
+	background-color: #2B4360;
+
+	
+
+}
+.fa-trash{
 	float: right;
-	position: relative;
-	left: 0;
-	top: -30px;
+	cursor: pointer;
+	color: #fff;
+	margin-right: 10px;
+}
+.results .fa-thumbs-up{
+	float: left;
+	display: none;
+	color: #fff;
+	width: 35px;
+	height: 35px;
 
 }
-
-.results .fa{
-float: right;
-cursor: pointer;
-color: #000;
-display: none;
-
-}
-
